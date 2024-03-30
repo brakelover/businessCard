@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #202026;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: rgb(221, 214, 214);
+}
+
+.container{
+  width: 420px;
+  margin: 40px auto;
+  overflow: hidden;
+  margin-bottom: 100px;
+  background-color: #18181D;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px rgb(158, 144, 144);
+  transition: .3s;
+}
+
+.container:hover{
+  box-shadow: 4px 4px 8px rgb(158, 144, 144);
+  width: 450px;
+  transition: .3s;
+}
+
+.subContainer, .subContent{
+  margin: 0;
+  padding: 0 40px;
+  transition: .3s;
+}
+
+.container:hover .subContainer, .container:hover .subContent{
+  transition: .3s;
+  padding: 0 60px;
+}
+
+.subContainer{
+  padding-bottom: 30px;
+}
+
+.photo{
+  width: 100%;
+}
+
+.subContent h1{
+  margin: 30px 0;
+  color: white;
+}
+
+.subContent h4{
+  font-weight: normal;
+  font-size: smaller;
+  margin: 0;
+}
+
+.subContent p{
+  font-size: 80%;
+  font-weight: 700;
+  margin: 5px 0 10px;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mailBtn, .lknBtn{
+  padding: 10px;
+  margin-top: 10px;
+  width: 110px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  background-color: rgb(238, 225, 225);
+  color: black;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.mailBtn:hover, .lknBtn:hover{
+  transition: .3s;
+  background-color: rgb(234, 226, 112);
+  color: rgb(96, 53, 137);
+}
+
+.about, .interest{
+  text-align: justify;
+}
+
+.about h2, .interest h2{
+  text-align: left;
+  margin: 50px 0 0;
+  color: rgb(236, 234, 234);
+}
+
+.about p, .interest p{
+  text-indent: 50px;
+  margin: 7px 0 0;
+}
+
+.footer{
+  width: 100%;
+  background-color: rgba(9, 9, 20, 0.884);
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.footer a{
+  margin: 0 15px;
+  font-size: 40px;
+  width: 45px;
+  height: 45px;
+  text-decoration: none;
+  color: rgb(191, 184, 184);
+  transition: .3s;
+}
+
+.footer a:hover{
+  transition: .3s;
+  color:rgb(234, 226, 112);
+}
+
